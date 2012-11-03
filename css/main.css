@@ -28,6 +28,7 @@ a img {border: 0;}
 
 .wf-loading h1, .wf-loading p, .wf-loading h2 {visibility: hidden;}
 
+p { margin-bottom: 20px; }
 
 /*	Typography presets
 	------------------	*/
@@ -253,7 +254,7 @@ aside {
 		aside li:first-child {margin-top: 0;}
 		
 	#new {
-		right: 60px; top: 118px;
+		right: 60px; top: 45px;
 	}
 	
 	#sites {
