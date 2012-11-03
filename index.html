@@ -1,15 +1,90 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Gurpreet Singh</title>
-  <meta name="description" content="Gurpreet Singh Portfolio">
-  <meta name="author" content="Bugga" >
-  <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-		<h1>Headerd</h1>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Gurpreet Singh - Portfolio</title>
+		<link href="assets/images/z-icon.ico" rel="icon" type="image/x-icon" />		
+		<link rel="stylesheet" media="all" href="css/main.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+	</head>
+	
+	<body lang="en">
+		<header id="masthead">
+			<div id="logo"></div>			
+			<h1>Gurpreet Singh</h1>
+			<p>Web Developer</p>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>	
+		<article id="about">
+			<section class="opening">
+				<h1>About</h1>
+					<p>	My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, 
+						London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, 
+						robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which 
+						enables me to develop best possible product according to my cleint's requirements.
+					</p>
+					<p>Personally I like to a work in an environment where the commitment and excitement to technology is 
+						paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, 
+						desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.
+					</p> 					
+					<button class="more-btn">More</button>					
+					<aside id="new">
+						<h2>Check out Frameless!</h2>
+						<ul>
+							<li><a href="http://framelessgrid.com/">Frameless</a> is a new fixed-width adaptive grid and the successor to Less Framework.</li>
+						</ul>
+					</aside>		
+				</section>
+				<section style="display:none" id="about-more">
+					<p>	My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, 
+						London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, 
+						robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which 
+						enables me to develop best possible product according to my cleint's requirements.
+					</p>
+					<p>Personally I like to a work in an environment where the commitment and excitement to technology is 
+						paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, 
+						desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.
+					</p> 				
+				</section>
+		</article>
+		<article id="projects">
+			<section>
+				<h1>Projects</h1>
+					<div id="projects-container">
+						<div class="project-wrap"><div class="project first"></div></div>
+						<div class="project-wrap"><div class="project second"></div></div>
+						<div class="project-wrap"><div class="project third"></div></div>
+						<div class="project-wrap"><div class="project first"></div></div>
+						<div class="project-wrap"><div class="project second"></div></div>
+						<div class="project-wrap"><div class="project third"></div></div>
+						<div class="project-wrap"><div class="project first"></div></div>
+						<div class="project-wrap"><div class="project second"></div></div>
+						<div class="project-wrap"><div class="project third"></div></div>
+					</div>
+					<button class="more-btn">More</button>		
+			</section>
+		</article>
+				
 		
-  <script src="js/index.js"></script>
-</body>
+		<article id="contact">
+			<section class="opening">
+					<h1>Contact</h1>
+					<p>
+									My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which enables me to develop best possible product according to my cleint's requirements.
+
+Personally I like to a work in an environment where the commitment and excitement to technology is paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges. 					
+					</p>
+				</section>
+		</article>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
 </html>
