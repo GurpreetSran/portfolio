@@ -277,7 +277,7 @@ aside {
 
 article {
 	border-width: 1px 0 0 0;
-	padding-top: 59px;
+	padding-top: 30px;
 	clear: both;
 }
 
@@ -730,4 +730,34 @@ px		68    160    252    344    436						*/
 	
 	#share li {margin: 0 12px 24px 0; float: left;}
 	
+}
+
+
+/*LightBox*/
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+ 
+.white_content {
+	display: none;
+	position: fixed;
+	top: 10px;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	border: 16px solid orange;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
 }
