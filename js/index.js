@@ -16,4 +16,11 @@ $(document).ready(function() {
      	return false;
 	});	
 	
+	
+	$('.project').click(function() {
+		$lightBox = $('#light');	
+		$lightBox.fadeIn();
+	});
+	
 });
+
