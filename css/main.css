@@ -103,6 +103,7 @@ body {
 }
 
 .project { 
+	cursor: pointer;	
 	width: 285px;
 	height: 100px;
 	background-color: #999;
@@ -743,21 +744,23 @@ px		68    160    252    344    436						*/
 	height: 100%;
 	background-color: black;
 	z-index:1001;
-	-moz-opacity: 0.8;
-	opacity:.80;
-	filter: alpha(opacity=80);
+	-moz-opacity: 0.5;
+	opacity:.5;
+	filter: alpha(opacity=50);
 }
  
 .white_content {
 	display: none;
 	position: fixed;
-	top: 10px;
-	left: 25%;
+	top: 20px;
+	left: 23%;
 	width: 50%;
-	height: 50%;
+	height: 80%;
 	padding: 16px;
-	border: 16px solid orange;
+	border: 16px solid #666;
 	background-color: white;
 	z-index:1002;
 	overflow: auto;
 }
+
+.noScroll { overflow: hidden; }

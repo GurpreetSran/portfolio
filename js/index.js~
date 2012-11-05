@@ -20,7 +20,8 @@ $(document).ready(function() {
 	$('.project').click(function() {
 		$lightBox = $('#light');	
 		$lightBox.fadeIn();
-		
+		$('#fade').fadeIn();		
+       // $('body').addClass('noScroll');		
 	});
 	
 });
