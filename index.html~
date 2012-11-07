@@ -8,6 +8,9 @@
 		<link rel="stylesheet" media="all" href="css/main.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
 	</head>
 	
 	<body lang="en">
@@ -82,8 +85,9 @@
 					<div id="projects-container">
 						<div class="project-wrap">
 							<div id="proj0" class="project first">
-								<div style="background:red; width:100%; height:100px;">Image</div>							
-								<h3> Green Square </h3> <p>Corporate finance <br />	and advisory practice</p>							
+								<img src="assets/images/thesun.jpg" alt="The Sun" />							
+								<h3> The Sun: Revamp</h3> 
+								<p>Corporate finance <br />and advisory practice</p>							
 								
 							</div>
 						</div>
@@ -112,7 +116,8 @@ Personally I like to a work in an environment where the commitment and excitemen
 				<button id="to-top" class="btn">Back to top ^</button>	
 		</article>
 		<div id="light" class="white_content">
-			<div id="top-bar"></div>		
+			<div id="top-bar"></div>	
+			<div id="content"></div>	
 		</div>
 		<div id="fade" class="black_overlay"></div>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	

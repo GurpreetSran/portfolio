@@ -36,6 +36,7 @@ $(document).ready(function() {
 		
 		$(this).parent().fadeOut();	
 		$('#fade').fadeOut();	
+	   $('body').removeClass('noScroll');	
 	
 	});	
 	
@@ -46,7 +47,11 @@ $(document).ready(function() {
 		$('#fade').fadeIn();		
         $('body').addClass('noScroll');	
         
-        $lightBox.find('#content').html($(this).attr("id"));	
+        //$lightBox.find('#content').html($(this).attr("id"));
+  		var str = "<img scr='' title='' /><h1>The SUN</h1>";         
+        
+		$lightBox.find('#content').html(str);        
+        	
 	});
 	
     var animTo = function(elem) {

@@ -56,6 +56,11 @@ p { margin-bottom: 20px; }
 	line-height: 35px;
 }*/
 
+.big, article h3 {
+	font-size: 18px;
+	line-height: 20px;
+}
+
 .big, article h2 {
 	font-size: 22px;
 	line-height: 30px;
@@ -102,10 +107,12 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
+.project p {line-height: 20px;} 
+.project h3, .project p {padding-left: 4px;} 
 .project { 
 	cursor: pointer;	
 	width: 285px;
-	height: 150px;
+	height: 195px;
 	background-color: #eee;
 	float: left;	
 	margin: 10px 0;
@@ -354,7 +361,7 @@ figure div {
 	background-color: rgba(255,255,158, 0.854);
 }
 	
-#desktop .content {width: 90px; height: 228px;}
+#desktop .content {width: 90px; height: 228px; }
 #desktop .img1 {left: 96px;}
 #desktop .img2 {left: 96px; top: 88px;}
 
@@ -764,7 +771,7 @@ px		68    160    252    344    436						*/
 
 .noScroll { overflow: hidden; }
 
-.btn { height: 32px; padding: 0 15px; cursor: pointer;}
+.btn { height: 32px; padding: 0 15px; cursor: pointer; clear: both;}
 
 #about-more ul {
 	margin-bottom: 20px;
@@ -776,3 +783,4 @@ px		68    160    252    344    436						*/
 #about-more ul li { margin-left: 16px; }
 
 #top-bar { position: relative; top: 0; left: 0; width: 100%; background-color: #000; height: 50px; }
+#content {padding: 5px; }

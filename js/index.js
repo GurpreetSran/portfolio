@@ -47,7 +47,11 @@ $(document).ready(function() {
 		$('#fade').fadeIn();		
         $('body').addClass('noScroll');	
         
-        $lightBox.find('#content').html($(this).attr("id"));	
+        //$lightBox.find('#content').html($(this).attr("id"));
+  		var str = "<h1>The SUN</h1>";         
+        
+		$lightBox.find('#content').html(str);        
+        	
 	});
 	
     var animTo = function(elem) {
