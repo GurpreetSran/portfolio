@@ -48,7 +48,10 @@ $(document).ready(function() {
         $('body').addClass('noScroll');	
         
         //$lightBox.find('#content').html($(this).attr("id"));
-  		var str = "<p style='width:630px; height:100px; background: red'></p> <h1>The SUN</h1>";         
+  		var str = "<p style='width:100%; height:100px; background: red'></p> <h1>The SUN</h1> " +
+  				   "<br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1>" +
+  				   "<br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1>" +
+  				   "<br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1>"; 
         
 		$lightBox.find('#content').html(str);        
         	
