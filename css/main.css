@@ -604,7 +604,7 @@ em		4.25  10.0   15.75						*/
 	
 	#masthead {text-align: center;}
 	
-	#masthead h1 { line-height: 35px; }
+	#masthead h1 { line-height: 35px; font-size: 35px; }
 	
 	#masthead nav {
 		left: 38px; 
