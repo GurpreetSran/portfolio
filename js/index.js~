@@ -48,7 +48,7 @@ $(document).ready(function() {
         $('body').addClass('noScroll');	
         
         //$lightBox.find('#content').html($(this).attr("id"));
-  		var str = "<img scr='' title='' /><h1>The SUN</h1>";         
+  		var str = "<p style='width:640px; height:100px; background: red'></p> <h1>The SUN</h1>";         
         
 		$lightBox.find('#content').html(str);        
         	

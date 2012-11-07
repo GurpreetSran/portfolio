@@ -118,6 +118,19 @@ body {
 	margin: 10px 0;
 }
 
+.white_content {
+	display: none;
+	position: fixed;
+	top: 10px;
+	left: 50%;
+	width: 640px;
+	margin-left: -320px;
+	height: 90%;
+	background-color: white;
+	z-index:1002;
+	overflow: auto;
+}
+
 .project.second { margin-right: 20px; margin-left: 20px; }
 
 hr {
@@ -619,6 +632,14 @@ em		4.25  10.0   15.75						*/
 		z-index: 888;
 	}
 	
+	.white_content {
+		left: 50%;
+		width: 300px;
+		top: 0;
+		height: 99%;
+		margin-left: -150px;
+	}		
+	
 	#new { right: 35px; top: 210px;  }	
 		
 			#masthead li {width: 252px; margin: 0 0 6px; float: none;}
@@ -705,6 +726,14 @@ px		68    160    252    344    436						*/
 	
 	#masthead nav { left: 104px; }
 
+	.white_content {
+		left: 50%;
+		width: 400px;
+		top: 0;
+		height: 99%;
+		margin-left: -200px;
+	}	
+	
 		#about { padding-top: 360px; }
 		
 		.project.second { margin-left: auto; margin-right: auto;}
@@ -756,19 +785,7 @@ px		68    160    252    344    436						*/
 	filter: alpha(opacity=50);
 }
  
-.white_content {
-	display: none;
-	position: fixed;
-	top: 20px;
-	left: 23%;
-	width: 50%;
-	height: 80%;
-	border: 16px solid #666;
-	background-color: white;
-	z-index:1002;
-	overflow: auto;
-}
-
+/*Do something similar for mobiles*/
 .noScroll { overflow: hidden; }
 
 .btn { height: 32px; padding: 0 15px; cursor: pointer; clear: both;}
@@ -784,4 +801,3 @@ px		68    160    252    344    436						*/
 
 #top-bar { position: relative; top: 0; left: 0; width: 100%; background-color: #000; height: 50px; }
 #content {padding: 5px; }
-#content h1 { line-height: 12px;  } 
