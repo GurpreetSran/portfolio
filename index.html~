@@ -17,15 +17,15 @@
 			<p>Web Developer</p>
 			<nav>
 				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#abt">About</a></li>
+					<li><a href="#prjs">Projects</a></li>
+					<li><a href="#con">Contact</a></li>
 				</ul>
 			</nav>
 		</header>	
 		<article id="about">
 			<section class="opening">
-				<h1>About</h1>
+				<h1 id="abt">About</h1>
 					<p>	My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, 
 						London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, 
 						robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which 
@@ -43,31 +43,58 @@
 					</aside>		
 				</section>
 				<section style="display:none" id="about-more">
-					<p>	My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, 
-						London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, 
-						robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which 
-						enables me to develop best possible product according to my cleint's requirements.
-					</p>
-					<p>Personally I like to a work in an environment where the commitment and excitement to technology is 
-						paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, 
-						desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.
-					</p> 				
+					<h2>Skills & Services</h2>
+					
+						<ul>
+							<h3>Core Skills</h3>	
+							<li>JavaScript (AJAX, JSON)</li>
+							<li>JavaScript Frameworks (jQuery, Backbone)</li>
+							<li>Unit Testing (Jasmine)</li>
+							<li>XHTML/HTML5</li>
+							<li>CSS2/CSS3</li>
+						</ul>
+						
+						<ul>
+							<h3>Frameworks</h3>	
+							<li>JavaScript (AJAX, JSON)</li>
+							<li>JavaScript Frameworks (jQuery, Backbone)</li>
+							<li>Unit Testing (Jasmine)</li>
+							<li>XHTML/HTML5</li>
+							<li>CSS2/CSS3</li>
+						</ul>
+						
+						<ul>
+							<h3>Working Knowledge</h3>	
+							<li>JavaScript (AJAX, JSON)</li>
+							<li>JavaScript Frameworks (jQuery, Backbone)</li>
+							<li>Unit Testing (Jasmine)</li>
+							<li>XHTML/HTML5</li>
+							<li>CSS2/CSS3</li>
+						</ul>
+											
+					
 				</section>
-				<button class="more-btn">More</button>	
+				<button class="btn" id="more-btn">More</button>	
 		</article>
 		<article id="projects">
 			<section>
-				<h1>Projects</h1>
+				<h1 id="prjs">Projects</h1>
 					<div id="projects-container">
-						<div class="project-wrap"><div class="project first"></div></div>
-						<div class="project-wrap"><div class="project second"></div></div>
-						<div class="project-wrap"><div class="project third"></div></div>
-						<div class="project-wrap"><div class="project first"></div></div>
-						<div class="project-wrap"><div class="project second"></div></div>
-						<div class="project-wrap"><div class="project third"></div></div>
-						<div class="project-wrap"><div class="project first"></div></div>
-						<div class="project-wrap"><div class="project second"></div></div>
-						<div class="project-wrap"><div class="project third"></div></div>
+						<div class="project-wrap">
+							<div id="proj0" class="project first">
+								<div style="background:red; width:100%; height:100px;">Image</div>							
+								<h3> Green Square </h3> <p>Corporate finance <br />	and advisory practice</p>							
+								
+							</div>
+						</div>
+						<div class="project-wrap"><div id="proj1" class="project second"></div></div>
+						<div class="project-wrap"><div id="proj2" class="project third"></div></div>
+						<div class="project-wrap"><div id="proj3" class="project first"></div></div>
+						<div class="project-wrap"><div id="proj4" class="project second"></div></div>
+						<div class="project-wrap"><div id="proj5" class="project third"></div></div>
+						<div class="project-wrap"><div id="proj6" class="project first"></div></div>
+						<div class="project-wrap"><div id="proj7" class="project second"></div></div>
+						<div class="project-wrap"><div id="proj8" class="project third"></div></div>
 					</div>
 			</section>
 		</article>
@@ -75,20 +102,19 @@
 		
 		<article id="contact">
 			<section class="opening">
-					<h1>Contact</h1>
+					<h1 id="con">Contact</h1>
 					<p>
 									My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which enables me to develop best possible product according to my cleint's requirements.
 
 Personally I like to a work in an environment where the commitment and excitement to technology is paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges. 					
 					</p>
 				</section>
-				<button class="more-btn">Back to top</button>	
+				<button id="to-top" class="btn">Back to top ^</button>	
 		</article>
-		<p>This is the main content. To display a lightbox click <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">here</a></p>
-		<div id="light" class="white_content">This is the lightbox content. <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a></div>
+		<div id="light" class="white_content">
+			<div id="top-bar"></div>		
+		</div>
 		<div id="fade" class="black_overlay"></div>
-			
-			
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
 		<script type="text/javascript" src="js/index.js"></script>
 	</body>

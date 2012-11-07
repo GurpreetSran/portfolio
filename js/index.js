@@ -1,19 +1,43 @@
 $(document).ready(function() {
 	
-	$('.more-btn').click(function() {
-		//$(this).fadeToggle('fast'); 		
-		$('#about-more').slideToggle();	
+	$('#more-btn').click(function() {
+		
+		$moreBtn = $(this);
+		
+		$('#about-more').slideToggle();
+		
+		
+		var txt = $moreBtn.text() == 'More' ? 'Less ^' : 'More';
+		
+		$moreBtn.text(txt);			
+		
+		
 	});	
 	
-	$('nav li a').click(function() {
-		
+	$('nav li a').click(function(evt) {
+       
+       evt.preventDefault(); 		
+	 	
 		var elem =  $(this).attr('href');	
-	   
-		$('html, body').animate({
-        	scrollTop: $(elem).offset().top
-     	}, 500);	
+        
+        animTo(elem);	   
      	
-     	return false;
+	});	
+	
+	$('#to-top').click(function(evt) {	
+		
+		var elem = $('body');	
+		
+		animTo(elem);	
+
+	});
+	
+	$('#top-bar').click(function() {	
+		
+		$(this).parent().fadeOut();	
+		$('#fade').fadeOut();	
+	   $('body').removeClass('noScroll');	
+	
 	});	
 	
 	
@@ -21,8 +45,17 @@ $(document).ready(function() {
 		$lightBox = $('#light');	
 		$lightBox.fadeIn();
 		$('#fade').fadeIn();		
-        $('body').addClass('noScroll');		
+        $('body').addClass('noScroll');	
+        
+        $lightBox.find('#content').html($(this).attr("id"));	
 	});
+	
+    var animTo = function(elem) {
+          		
+		$('html, body').animate({
+        	scrollTop: $(elem).offset().top
+     	}, 500);	    	
+    } 	
 	
 });
 
