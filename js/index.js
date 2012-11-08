@@ -32,9 +32,9 @@ $(document).ready(function() {
 
 	});
 	
-	$('#top-bar').click(function() {	
+	$('#close-pop').click(function() {	
 		
-		$(this).parent().fadeOut();	
+		$('#light').fadeOut();	
 		$('#fade').fadeOut();	
 	   $('body').removeClass('noScroll');	
 	
@@ -48,13 +48,14 @@ $(document).ready(function() {
         $('body').addClass('noScroll');	
         
         //$lightBox.find('#content').html($(this).attr("id"));
-  		var str = "<p style='width:100%; height:100px; background: red'></p> <h1>The SUN</h1> " +
-  				   "<br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1>" +
-  				   "<br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1>" +
-  				   "<br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1><br><h1>The SUN</h1>"; 
+  		
+		/*  		
+  		var str = "<p style='width:100%; height:100px; background: red'>This is image place holder</p><h1>The SUN - Header</h1>" +
+  				   "<br><p>Project Description</p> <br> <p>Skills Used, Tested On, optimised for</p>"; 
         
 		$lightBox.find('#content').html(str);        
-        	
+       
+       */ 	
 	});
 	
     var animTo = function(elem) {

@@ -67,7 +67,7 @@ p { margin-bottom: 20px; }
 }
 
 body, aside h1 {
-	font: 16px/24px "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Cambria, Georgia, serif;
+	font: 17px/24px "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Cambria, Georgia, serif;
 }
 
 .small, #code textarea, small {
@@ -117,6 +117,42 @@ body {
 	float: left;	
 	margin: 10px 0;
 }
+
+.skills, .testedon { float: left; width: 130px; padding-right: 10px; }
+.desc { display: block; float: left; width: 465px; padding-right: 20px; padding-left: 5px;}
+#content h1 { padding: 10px 0; }
+#content h2 { font-size: 20px; padding-bottom: 5px;}
+
+
+/*LightBox*/
+.black_overlay{
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.5;
+	opacity:.5;
+	filter: alpha(opacity=50);
+}
+ 
+/*Do something similar for mobiles*/
+.noScroll { overflow: hidden; }
+
+#about-more ul {
+	margin-bottom: 20px;
+	margin-right: 10px;
+	float: left;
+	width: 295px;
+} 
+
+#about-more ul li { margin-left: 16px; }
+#content {padding: 5px;}
+#content ul li {margin-left: 19px;}
+#close-pop { margin-bottom: 20px; margin-left: 10px; }
 
 .white_content {
 	display: none;
@@ -176,7 +212,7 @@ hr {
 		);
 	}
 	
-/*Goddamn Android*/ #about h1, #about p, #about section h2 {background: rgb(232,232,232);}
+/*Goddamn Android*/ #about h1, #about p {background: rgb(232,232,232);}
 
 figure img {position: absolute; left: 0; bottom: 0;}
 		
@@ -317,7 +353,6 @@ article {
 	height: 252px;
 }
 	
-#about section h2 {padding-top: 24px;}
 
 #about figure {
 	background: rgb(218,218,218);
@@ -545,7 +580,7 @@ px		68    160    252    344    436    528    620    712		*/
 		
 		#about figure {height: 160px;}
 		
-			.canvas {top: -12px;}
+		.canvas {top: -12px;}
 		
 		#about section {
 			float: none;
@@ -620,6 +655,10 @@ em		4.25  10.0   15.75						*/
 	
 	#logo { display: none;}
 
+	.desc { width: 270px; padding:0 5px; }		
+	
+	.skills, .testedon { padding-left: 5px; padding-bottom: 10px; }	
+	
 	#about { padding-top: 460px; }	
 	
 	#masthead {text-align: center;}
@@ -627,7 +666,7 @@ em		4.25  10.0   15.75						*/
 	#masthead h1 { line-height: 35px; font-size: 35px; }
 	
 	#masthead nav {
-		left: 38px; 
+		left: 35px; 
 		top: 95px;
 		z-index: 888;
 	}
@@ -722,10 +761,12 @@ px		68    160    252    344    436						*/
 		width: 436px;
 	}
 	
-	#new { right: 118px; top: 105px; }
+	#new { right: 107px; top: 105px; }
 	
 	#masthead nav { left: 104px; }
-
+	
+	.desc { width: 310px; padding-right: 10px; }			
+	
 	.white_content {
 		left: 50%;
 		width: 480px;
@@ -770,44 +811,4 @@ px		68    160    252    344    436						*/
 }
 
 
-/*LightBox*/
-.black_overlay{
-	display: none;
-	position: absolute;
-	top: 0%;
-	left: 0%;
-	width: 100%;
-	height: 100%;
-	background-color: black;
-	z-index:1001;
-	-moz-opacity: 0.5;
-	opacity:.5;
-	filter: alpha(opacity=50);
-}
- 
-/*Do something similar for mobiles*/
-.noScroll { overflow: hidden; }
-
-.btn { height: 32px; padding: 0 15px; cursor: pointer; clear: both;}
-
-#about-more ul {
-	margin-bottom: 20px;
-	margin-right: 10px;
-	float: left;
-	width: 295px;
-} 
-
-#about-more ul li { margin-left: 16px; }
-
-#top-bar { 
-	position: relative; 
-	top: 0; left: 0; 
-	width: 100%; 
-	background: #b2b2b2 url('../assets/images/close-btn.gif') no-repeat 99% 0; 
-	height: 40px; 
-}
-
-#content {padding: 5px; }
-
-
-
+.btn { height: 32px; cursor: pointer; clear: both; padding: 0 15px; }
