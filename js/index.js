@@ -37,6 +37,8 @@ $(document).ready(function() {
 		$('#light').fadeOut();	
 		$('#fade').fadeOut();	
 	   $('body').removeClass('noScroll');	
+	   
+	   $(document).bind('touchmove', true);
 	
 	});	
 	
@@ -46,6 +48,8 @@ $(document).ready(function() {
 		$lightBox.fadeIn();
 		$('#fade').fadeIn();		
         $('body').addClass('noScroll');	
+        
+        $(document).bind('touchmove', false);
         
         //$lightBox.find('#content').html($(this).attr("id"));
   		
