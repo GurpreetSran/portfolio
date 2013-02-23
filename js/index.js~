@@ -8,6 +8,56 @@ var projects = [
         url: 'http://www.example2.com',
         description: 'Project 2',
         skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
     }
 ];
 
@@ -69,7 +119,7 @@ $(document).ready(function() {
         var current_id = $(this).attr("id");
         var current_header = $(this).find("h3").html();    		
   		
-		var str = "<div><img src='"+projects[current_id].url+"'/><h1> " + current_header +"</h1>" +
+		var str = "<div style='text-align: center'><img style='width: 100%;' src='"+projects[current_id].url+"'/><h1> " + current_header +"</h1>" +
   				   "<br><p>" +projects[current_id].description+"</p> <br> <p>"+projects[current_id].skills+"</p>"; 
         
 		$lightBox.find('#content').html(str);        
