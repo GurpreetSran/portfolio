@@ -1,3 +1,66 @@
+var projects = [
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    },
+    {
+        url: 'assets/images/sun-main.jpg',
+        description: 'Project Description',
+        skills: 'html, as3'  
+    },
+    {
+        url: 'http://www.example2.com',
+        description: 'Project 2',
+        skills: ''
+    }
+];
+
 $(document).ready(function() {
 	
 	$('#more-btn').click(function() {
@@ -10,7 +73,7 @@ $(document).ready(function() {
 		var txt = $moreBtn.text() == 'More' ? 'Less ^' : 'More';
 		
 		$moreBtn.text(txt);			
-		
+		 
 		
 	});	
 	
@@ -34,8 +97,8 @@ $(document).ready(function() {
 	
 	$('#close-pop').click(function() {	
 		
-		$('#light').fadeOut();	
-		$('#fade').fadeOut();	
+	   $('#light').fadeOut();	
+	   $('#fade').fadeOut();	
 	   $('body').removeClass('noScroll');	
 	   
 	   $('body').bind('touchmove', true);
@@ -44,22 +107,23 @@ $(document).ready(function() {
 	
 	
 	$('.project').click(function() {
+		
 		$lightBox = $('#light');	
 		$lightBox.fadeIn();
 		$('#fade').fadeIn();		
-        $('body').addClass('noScroll');	
+       $('body').addClass('noScroll');	
         
         $('body').bind('touchmove', false);
+        //Try to set touchmove true on child elements
         
-        //$lightBox.find('#content').html($(this).attr("id"));
+        var current_id = $(this).attr("id");
+        var current_header = $(this).find("h3").html();    		
   		
-		/*  		
-  		var str = "<p style='width:100%; height:100px; background: red'>This is image place holder</p><h1>The SUN - Header</h1>" +
-  				   "<br><p>Project Description</p> <br> <p>Skills Used, Tested On, optimised for</p>"; 
+		var str = "<div><img src='"+projects[current_id].url+"'/><h1> " + current_header +"</h1>" +
+  				   "<br><p>" +projects[current_id].description+"</p> <br> <p>"+projects[current_id].skills+"</p>"; 
         
 		$lightBox.find('#content').html(str);        
        
-       */ 	
 	});
 	
     var animTo = function(elem) {
