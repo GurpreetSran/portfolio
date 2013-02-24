@@ -5,57 +5,57 @@ var projects = [
         skills: 'html, as3'  
     },
     {
-        url: 'http://www.example2.com',
+        url: 'assets/images/match-center-main.jpg',
         description: 'Project 2',
         skills: ''
     },
     {
-        url: 'assets/images/sun-main.jpg',
+        url: 'assets/images/ipad-poc-main.jpg',
         description: 'Project Description',
         skills: 'html, as3'  
     },
     {
-        url: 'http://www.example2.com',
+        url: 'assets/images/notw-main.jpg',
         description: 'Project 2',
         skills: ''
     },
     {
-        url: 'assets/images/sun-main.jpg',
+        url: 'assets/images/thetimes-main.jpg',
         description: 'Project Description',
         skills: 'html, as3'  
     },
     {
-        url: 'http://www.example2.com',
+        url: 'assets/images/thesundaytimesmain.jpg',
         description: 'Project 2',
         skills: ''
     },
     {
-        url: 'assets/images/sun-main.jpg',
+        url: 'assets/images/',
         description: 'Project Description',
         skills: 'html, as3'  
     },
     {
-        url: 'http://www.example2.com',
+        url: 'assets/images/',
         description: 'Project 2',
         skills: ''
     },
     {
-        url: 'assets/images/sun-main.jpg',
+        url: 'assets/images/',
         description: 'Project Description',
         skills: 'html, as3'  
     },
     {
-        url: 'http://www.example2.com',
+        url: 'assets/images/',
         description: 'Project 2',
         skills: ''
     },
     {
-        url: 'assets/images/sun-main.jpg',
+        url: 'assets/images/',
         description: 'Project Description',
         skills: 'html, as3'  
     },
     {
-        url: 'http://www.example2.com',
+        url: 'assets/images/',
         description: 'Project 2',
         skills: ''
     }
@@ -113,7 +113,7 @@ $(document).ready(function() {
 		$('#fade').fadeIn();		
        $('body').addClass('noScroll');	
         
-        $('body').bind('touchmove', false);
+        //$('body').bind('touchmove', false);
         //Try to set touchmove true on child elements
         
         var current_id = $(this).attr("id");
