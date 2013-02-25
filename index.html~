@@ -28,17 +28,22 @@
 		</header>	
       	<article id="contact">
 			<div id="into-image" style="width: 100%;">
-     		   <img style="width: 100%;" src="assets/images/intro-main.jpg" alt="This site is responsive" >
+     		   <img style="width: 100%;" src="assets/images/intro-main.png" alt="This site is responsive" >
            </div>       			
 			<section class="opening intro">
-			     I make web beautiful
+			     I make web beautiful!
 			</section>
 		</article>		
 		<article id="about">
 			<section class="opening">
 				<h1 id="abt">About</h1>
-					<p>	My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, 
-						London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, 
+					<p>
+					   More than five years of experience working with world class clients has given me extensive knowledge of web development.
+					   My broad educational background has provided me a strong base, also makes me versatile & flexible developer to fit into
+					   different roles effectively
+					</p>
+					<p>       	
+					    I love developing bespoke, interactive, data rich, 
 						robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which 
 						enables me to develop best possible product according to my cleint's requirements.
 					</p>
@@ -47,12 +52,13 @@
 						desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.
 					</p> 					
 					<aside id="new">
-						<h2>Responsive Design!</h2>
+						<h2>Hire me for:</h2>
 						<ul>
-							<li>
-								This site has been done using media queries and HTML5. 
-								Try it in different browsers, tablets and smartphones. 
-							</li>
+							<li>Front End Development</li>
+							<li>Responsive Design</li>
+							<li>Modular JavaScript</li>
+							<li>HTML5 & CSS3</li>
+							<li>Cross Device & Web Development</li>
 						</ul>
 					</aside>		
 				</section>
@@ -60,37 +66,39 @@
 					<h2>Skills & Services</h2>
 					
 						<ul>
-							<h3>Core Skills</h3>	
-							<li>JavaScript (AJAX, JSON)</li>
-							<li>JavaScript Frameworks (jQuery, Backbone)</li>
-							<li>Unit Testing (Jasmine)</li>
-							<li>XHTML/HTML5</li>
-							<li>CSS2/CSS3</li>
-							<li>Fluid Grids</li>
-							<li>Responsive Design</li>
+							<h3>Skills</h3>	
+							<li>JavaScript</li>
+                          <li>HTML5</li>
+                          <li>CSS3</li> 							
+							<li>ActionScript 3</li>
+							<li>Escenic</li>
+							<li>MOSS</li>
+							<li>Kentico</li>
 						</ul>
 						
 						<ul>
-							<h3>Skills</h3>	
-							<li>AS3, Flash Builder</li>
-							<li>JavaScript Frameworks (jQuery, Backbone)</li>
-							<li>Unit Testing (Jasmine)</li>
-							<li>XHTML/HTML5</li>
-							<li>CSS2/CSS3</li>
+							<h3>Frameworks & Libraries</h3>	
+							<li>jQuery</li>
+							<li>Jasmine (BDD)</li>							
+							<li>Modernizr</li>							
+							<li>Flash Builder</li>
+							<li>Fluid Grids</li>
+							<li>Responsive Design</li>
+							<li>Progressive Degradation</li>
 						</ul>
 						
 						<ul>
 							<h3>Working Knowledge</h3>	
+							<li>Backbone.js</li>
+							<li>Node.js</li>							
 							<li>JSP</li>
 							<li>PHP</li>
 							<li>java</li>
-							<li>.net</li>
-							<li></li>
 						</ul>
 											
 					
 				</section>
-				<button class="btn" id="more-btn">More</button>	
+				<button class="btn" id="more-btn">Skills & Services</button>	
 		</article>
 		<article id="projects">
 			<section>
@@ -201,37 +209,22 @@
 		
 		<article id="contact">
 			<section class="opening">
-					<h1 id="con">Contact</h1>
+					<h1 id="con">Contact:</h1>
 					<p>
-									My name is Gurpreet Singh and I'm a Web Developer. I hold Maters Degree in Web Development from Kingston University, London. I have been doing web development for last 3 years. I love developing bespoke, interactive, data rich, robust, and efficient web systems. I like to keep myself up to date with latest technology and trends which enables me to develop best possible product according to my cleint's requirements.
-
-Personally I like to a work in an environment where the commitment and excitement to technology is paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges. 					
+						Drop me an Email on <a href="mailto:gurizox@yahoo.com">gurizox@yahoo.com</a> or<br> 
+						Tweet me on xxxx <br>
+					</p>
+					<p>						
+						Check out my <a target="blank" href="http://www.linkedin.com/pub/gurpreet-singh/11/bb8/592">Linked in</a> and 
+						<a target="blank" href="http://stackoverflow.com/users/1750604/gurpreet-singh">StackOverFlow</a> profile. 			 					
 					</p>
 				</section>
-				<button id="to-top" class="btn">Back to top ^</button>	
+				<button id="to-top" class="btn">Back to top</button>	
 		</article>
 		<div id="light" class="white_content">
-			<div id="content">
-				<h1>The SUN - Header</h1> 				
-				<p style='width:100%; height:100px; background: red'>This is image place holder</p>
-				<div class="desc">
-  					<h2>Description</h2>
-  					<p>
-						<a href="http://www.annarichardson.co.uk/home.html" target="_blank"> Anna's Richardson's</a> 
-						Body Blitz Diet is a two week diet plan that guarantees up to 7lb weight loss in just 14 days. 
-						Featuring the 5 RULES to guarantee weight loss, over 35 delicious, easy-to-prepare recipes, 
-						and the exclusive PANIC BUTTON to keep dieters on the straight and getting narrower!				
-  					</p>
-  				</div>					
-				<ul class="skills">
-					<h2>Skills Used</h2>
-					<li>HTML5</li>				
-					<li>CSS3</li>				
-				</ul> 
-				<div class="testedon">
-					<h2>Tested On</h2>
-				</div>   				
-  			</div>
+			<div id="content">	
+				<!-- Dynamic Content -->			
+			</div>
   			<button class="btn" id="close-pop">Close</button>	
 		</div>
 		<div id="fade" class="black_overlay"></div>
