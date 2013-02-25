@@ -46,8 +46,8 @@ p { margin-bottom: 20px; }
 }
 
 .large, article h1 {
-	font-size: 30px;
-	line-height: 40px;
+	font-size: 40px;
+	line-height: 45px;
 	margin: 0 0 15px;
 }
 /*
@@ -57,13 +57,12 @@ p { margin-bottom: 20px; }
 }*/
 
 .big, article h3 {
-	font: 18px/20px "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Cambria, Georgia, serif;
-	font-weight: bold;
+	font: 22px/25px "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", Cambria, Georgia, serif;
 }
 
 .big, article h2 {
-	font-size: 22px;
-	line-height: 30px;
+	font-size: 30px;
+	line-height: 35px;
 }
 
 body, aside h1 {
@@ -76,6 +75,28 @@ body, aside h1 {
 }
 
 abbr {letter-spacing: 1px;}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#more-btn {  
+	background: url('../assets/images/arrows.png') no-repeat 117px -163px;
+	padding: 0 25px 0 15px;
+}
+
+.active  { background: url('../assets/images/arrows.png') no-repeat 117px -220px!important; } 
+#to-top { background: url('../assets/images/arrows.png') no-repeat 85px -220px;  padding-right: 25px; } 
+
+
+ul li {
+   background: url('../assets/images/arrows.png')no-repeat -3px 0px; 
+   padding-left: 25px; 
+}
+
+ul h3 { padding: 10px 0; }
 
 a {color: rgb(60,97,158); text-decoration: none;}
 a:hover, a:active {border-bottom: 1px solid rgb(60,97,158);}
@@ -107,10 +128,10 @@ body {
 	-webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
 }
 
- .intro { font-size: 70px; line-height: 80px; margin-top: 35px; text-align: center;}
-.project p {line-height: 20px;} 
+ .intro { font-size: 60px; line-height: 70px; margin-top: 35px; text-align: center;}
+.project p {line-height: 20px; font-size: 16px; } 
 .project h3, .project p {padding-left: 10px; } 
-.project h3 { margin-top: -10px; }
+.project h3 { margin-top: -10px; font-size: 20px;}
 .project { 
 	cursor: pointer;	
 	width: 285px;
@@ -151,8 +172,8 @@ body {
 	width: 295px;
 } 
 
-#about-more ul li { margin-left: 16px; }
-#content {padding: 5px;}
+/*#about-more ul li { margin-left: 16px; }*/
+#content {padding: 12px; padding-right: 13px}
 #content ul li {margin-left: 19px;}
 #close-pop { margin-bottom: 20px; margin-left: 10px; }
 
@@ -234,6 +255,8 @@ figure img {position: absolute; left: 0; bottom: 0;}
 			float: left;
 			list-style: none;
 			margin-left: 12px;
+			background: none;
+			padding: 0;
 		}
 		
 		#masthead a, #share a, .btn {
@@ -305,14 +328,13 @@ aside {
 	
 	aside li {
 		margin-top: 10px;
-		margin-left: 18px;
 		font-size: 20px;
 	}
 	
 		aside li:first-child {margin-top: 0;}
 		
 	#new {
-		right: 50px; top: 70px;
+		right: 50px; top: 100px;
 	}
 	
 	#new h2 { font-size: 30px; font-weight: bold; }
@@ -592,7 +614,9 @@ px		68    160    252    344    436    528    620    712		*/
 			height: 160px;
 		}
 	
-	    .intro { font-size: 75px; }
+	    .intro { font-size: 50px; line-height: 20px; }
+	    
+	    #about-more ul { width: 225px; }
 	/*	
 	#projects section {
 		padding-left: 92px;
@@ -667,9 +691,9 @@ em		4.25  10.0   15.75						*/
 	
     #into-image {  margin-top: 180px; }	
 
-    .intro { font-size: 30px; }		
+    .intro { font-size: 30px; line-height: 35px;  }		
 	
-	#about { padding-top: 310px; }	
+	#about { padding-top: 390px; }	
 	
 	#masthead {text-align: center;}
 	
@@ -771,7 +795,7 @@ px		68    160    252    344    436						*/
 		width: 436px;
 	}
 	
-	#new { right: 107px; top: 40px; }
+	#new { right: 107px; top: 20px; }
 	
 	#masthead nav { left: 104px; }
 	
@@ -779,7 +803,7 @@ px		68    160    252    344    436						*/
 	
  	#into-image {  margin-top: 75px; }	
 
-    .intro { font-size: 45px; }	
+    .intro { font-size: 40px; margin-top: 15px; }	
 	
 	.white_content {
 		left: 50%;
