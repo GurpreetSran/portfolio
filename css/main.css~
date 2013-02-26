@@ -91,7 +91,7 @@ ul {
 #to-top { background: url('../assets/images/arrows.png') no-repeat right -220px;  padding-right: 25px; } 
 
 ul li {
-   background: url('../assets/images/arrows.png')no-repeat left -1px; 
+   background: url('../assets/images/arrows.png') no-repeat left -1px; 
    padding-left: 25px; 
 }
 
