@@ -91,7 +91,7 @@ ul {
 #to-top { background: url('../assets/images/arrows.png') no-repeat right -220px;  padding-right: 25px; } 
 
 ul li {
-   background: url('../assets/images/arrows.png')no-repeat -3px 0px; 
+   background: url('../assets/images/arrows.png')no-repeat left -1px; 
    padding-left: 25px; 
 }
 
@@ -141,6 +141,7 @@ body {
 }
 
 .project:hover {background-color: #ccc; } 
+.project-wrap > div { overflow: hidden; }
 
 .skills, .testedon { float: left; width: 130px; padding-right: 10px; }
 .desc { display: block; float: left; width: 465px; padding-right: 20px; padding-left: 5px; margin-top: -10px;}

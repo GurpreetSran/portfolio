@@ -40,7 +40,7 @@
 					<p>
 					   More than five years of experience working with world class clients has given me extensive knowledge of web development.
 					   My broad educational background has provided me a strong base, also makes me versatile & flexible developer to fit into
-					   different roles effectively
+					   different roles effectively.
 					</p>
 					<p>       	
 					    I love developing bespoke, interactive, responsive, robust, and efficient web systems. 
@@ -113,98 +113,98 @@
 							<div id="0" class="project first">
 								<img src="assets/images/thesun.png" alt="The Sun" />							
 								<h3> The Sun: Revamp</h3> 
-								<p>The Sun has the tenth-largest circulation <br> of any newspaper in the world... </p>							
+								<p>The Sun has the tenth-largest <br> circulation of any newspaper in the...</p>							
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="1" class="project second">
-								<img src="assets/images/match-center.png" alt="The Sun" />							
+								<img src="assets/images/match-center.png" alt="The Sun: Live match center" />							
 								<h3> The Sun: Live Match Center</h3> 
-								<p>Sun Football is famous for its brilliant sports-writers and expert columnists...</p>														
+								<p>Sun Football is famous for its <br>brilliant sports-writers and expert...</p>														
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="2" class="project third">
-								<img src="assets/images/ipad.png" alt="The Sun" />							
+								<img src="assets/images/ipad.png" alt="The Sun: iPad POC" />							
 								<h3> The Sun: iPad POC</h3> 
 								<p>This HTML5 based tablet proof of <br> concept project has been done for... </p>							
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="3" class="project first">
-								<img src="assets/images/notw.png" alt="The Sun" />							
+								<img src="assets/images/notw.png" alt="News of the World" />							
 								<h3>News of the World</h3> 
-								<p>The News of the World was a national <br> red top newspaper published...</p>			
+								<p>The News of the World was a<br>national red top newspaper...</p>			
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="4" class="project second">
-								<img src="assets/images/thetimes.png" alt="The Sun" />							
+								<img src="assets/images/thetimes.png" alt="The Times" />							
 								<h3>The Times</h3> 
-								<p>The Times is a British daily national newspaper, first published in London...</p>			
+								<p>The Times is a British daily<br>national newspaper, first published...</p>			
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="5" class="project third">
-								<img src="assets/images/thesuntimes.png" alt="The Sun" />							
+								<img src="assets/images/thesuntimes.png" alt="The Sunday Times" />							
 								<h3>The Sunday Times</h3> 
-								<p>The Sunday Times is the largest-selling British national 'quality' Sunday...</p>			
+								<p>The Sunday Times is the largest<br>selling British national 'quality'...</p>			
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="6" class="project first">
-								<img src="assets/images/bodyblitz.png" alt="The Sun" />							
+								<img src="assets/images/bodyblitz.png" alt="Body Blitz" />							
 								<h3>Body Blitz Diet</h3> 
-								<p>Anna's Richardson's Body Blitz Diet <br> is a two week diet plan that guarantees...</p>			
+								<p>Anna's Richardson's Body Blitz <br>Diet is a two week diet plan that...</p>			
 							</div>						
 						</div>
 						<div class="project-wrap">
 							<div id="7" class="project second">
-								<img src="assets/images/atoz.png" alt="The Sun" />							
+								<img src="assets/images/atoz.png" alt="AZ Online" />							
 								<h3>AZ Online</h3> 
-								<p>Philip Allan Updates is part of the <br> Hodder Education Group, a division...</p>			
+								<p>Philip Allan Updates is part of<br>the Hodder Education Group, a...</p>			
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="8" class="project third">
-								<img src="assets/images/greensquare.png" alt="The Sun" />							
+								<img src="assets/images/greensquare.png" alt="Green Square" />							
 								<h3>Green Square</h3> 
-								<p>Green Square is a corporate finance <br> and advisory practice. They provide...</p>	
+								<p>Green Square is a corporate<br>finance and advisory practice...</p>	
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="9" class="project first">
-								<img src="assets/images/accenture.png" alt="The Sun" />							
+								<img src="assets/images/accenture.png" alt="Accenture Microsites" />							
 								<h3>Accenture Microsites</h3> 
-								<p>Accenture’s expertise and resources <br> cover the full M&A process, from...</p>								
+								<p>Accenture’s expertise and resources<br>cover the full M&A process...</p>								
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="10" class="project second">
-								<img src="assets/images/fabmag.png" alt="The Sun" />							
+								<img src="assets/images/fabmag.png" alt="Fab Mag" />							
 								<h3>Fabulous Magazine</h3> 
-								<p>The UK's most-read weekly glossy, out every Sunday with...</p>				
+								<p>The UK's most-read weekly glossy,<br>out every Sunday with...</p>				
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="11" class="project third">
-								<img src="assets/images/hodder.png" alt="The Sun" />							
+								<img src="assets/images/hodder.png" alt="Hodder Education" />							
 								<h3>Hodder Education</h3> 
 								<p>As one of the UK's largest educational publishers, Hodder Education...</p>				
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="12" class="project first">
-								<img src="assets/images/prague.png" alt="The Sun" />							
+								<img src="assets/images/prague.png" alt="Prague Airport" />							
 								<h3>Interactive Prague Airport</h3> 
-								<p>Prague Airport is the operator of the most important international airport in...</p>				
+								<p>Prague Airport is the operator of the<br>most important international airport...</p>				
 							</div>
 						</div>
 						<div class="project-wrap">
 							<div id="13" class="project second">
 								<img src="assets/images/otto.png" alt="The Sun" />							
 								<h3>Otto Group</h3> 
-								<p>Otto Group are inspired andunited by our shared values, which transcend...</p>				
+								<p>Otto Group are inspired andunited<br> by our shared values, which...</p>				
 							</div>
 						</div>
 					</div>
@@ -216,7 +216,7 @@
 			<section class="opening">
 					<h1 id="con">Contact Info:</h1>
 					<ul>
-						<li><a target="blank" href="mailto:gurizox@yahoo.com">Email: gurizox@yahoo.com</a> </li> 
+						<li><a href="mailto:gurizox@yahoo.com">Email: gurizox@yahoo.com</a> </li> 
 						<li><a target="blank" href="https://twitter.com/gurpreet_s82">Twitter: gurpreet_s82</a></li>
 						<li><a target="blank" href="http://www.linkedin.com/pub/gurpreet-singh/11/bb8/592">Linked in profile</a> 
 						<li><a target="blank" href="http://stackoverflow.com/users/1750604/gurpreet-singh">Stackoverflow profile</a></li> 			 					
