@@ -106,7 +106,8 @@ var projects = [
     {
         project_url: 'http://fabulousmag.co.uk/',
         image_url: 'assets/images/fab-main.jpg',
-        description: "I have been working on this magazine on and off for last two years. My responsibilities include:"+
+        description: "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p>"+
+        			  "I have been working on this magazine on and off for last two years. My responsibilities include:"+
         			  "<ul><li>Fixing bugs when required</li>"+
         			  "<li>Setting up and maintaining best practices</li>"+
         			  "<li>Code reviews, mentoring junior developers & contractors</li>"+

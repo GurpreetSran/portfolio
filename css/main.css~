@@ -128,9 +128,9 @@ body {
 }
 
  .intro { font-size: 60px; line-height: 70px; margin-top: 35px; text-align: center;}
-.project p {line-height: 20px; font-size: 16px; } 
+.project p {line-height: 20px; font-size: 15px; font-family:"Times New Roman",Georgia,Serif; } 
 .project h3, .project p {padding-left: 10px; } 
-.project h3 { margin-top: -10px; font-size: 20px;}
+.project h3 { margin-top: -10px; font-size: 18px;}
 .project { 
 	cursor: pointer;	
 	width: 285px;
@@ -175,7 +175,6 @@ body {
 
 /*#about-more ul li { margin-left: 16px; }*/
 #content {padding: 12px; padding-right: 13px}
-#content ul li {margin-left: 19px;}
 #close-pop { margin-bottom: 20px; margin-left: 10px; }
 
 .white_content {
