@@ -83,13 +83,12 @@ ul {
 }
 
 #more-btn {  
-	background: url('../assets/images/arrows.png') no-repeat 117px -163px;
+	background: url('../assets/images/arrows.png') no-repeat right -163px;
 	padding: 0 25px 0 15px;
 }
 
-.active  { background: url('../assets/images/arrows.png') no-repeat 117px -220px!important; } 
-#to-top { background: url('../assets/images/arrows.png') no-repeat 85px -220px;  padding-right: 25px; } 
-
+.active  { background: url('../assets/images/arrows.png') no-repeat right -220px!important; } 
+#to-top { background: url('../assets/images/arrows.png') no-repeat right -220px;  padding-right: 25px; } 
 
 ul li {
    background: url('../assets/images/arrows.png')no-repeat -3px 0px; 
@@ -105,7 +104,7 @@ h1, h2, #code label {color: rgb(23,23,23); font-weight: normal;}
 
 ::selection 	 	{background: rgb(255,255,158);}
 ::-moz-selection 	{background: rgb(255,255,158);}
-img::selection 		{background: transparent;}
+img::selection 	{background: transparent;}
 img::-moz-selection {background: transparent;}
 
 body {-webkit-tap-highlight-color: rgb(255,255,158);}
@@ -121,7 +120,7 @@ cols	1     2      3      4      5      6      7      8      9      10
 px		68    160    252    344    436    528    620    712    804    896	*/
 
 body {
-	padding: 72px 0 500px;
+	padding: 72px 0;
 	position: relative;
 	background: rgb(232,232,232);
 	color: rgb(60,60,60);
@@ -141,9 +140,11 @@ body {
 	margin: 10px 0;
 }
 
+.project:hover {background-color: #ccc; } 
+
 .skills, .testedon { float: left; width: 130px; padding-right: 10px; }
 .desc { display: block; float: left; width: 465px; padding-right: 20px; padding-left: 5px; margin-top: -10px;}
-#content h1 { text-align: center; padding: 20px 0; }
+#content h1 { text-align: center; padding: 20px 0; line-height: 40px; }
 #content h2 { font-size: 20px; padding-bottom: 5px;}
 
 
@@ -691,7 +692,7 @@ em		4.25  10.0   15.75						*/
 	
     #into-image {  margin-top: 180px; }	
 
-    .intro { font-size: 30px; line-height: 35px;  }		
+    .intro { font-size: 30px; line-height: 45px;  }		
 	
 	#about { padding-top: 390px; }	
 	
@@ -745,14 +746,15 @@ em		4.25  10.0   15.75						*/
 		font-size: 16px;
 		line-height: 24px;
 	}
-	
+
 	aside h2, aside li {font-size: 18px; line-height: 24px;}
 	
-	article h2 {text-transform: uppercase; letter-spacing: 1px;}
+	article h2 { font-size: 25px; letter-spacing: 1px;}
+	
 	article aside h2 {text-transform: none; letter-spacing: 0;}
 	
 	article h1 {
-		font-size: 26px;
+		font-size: 30px;
 		line-height: 36px;
 	}
 	
@@ -803,7 +805,7 @@ px		68    160    252    344    436						*/
 	
  	#into-image {  margin-top: 75px; }	
 
-    .intro { font-size: 40px; margin-top: 15px; }	
+    .intro { font-size: 40px; margin-top: 15px; line-height: 60px; }	
 	
 	.white_content {
 		left: 50%;
