@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>Gurpreet Singh - Portfolio</title>
+		<link href="assets/images/z-icon.ico" rel="icon" type="image/x-icon" />		
+		<link rel="stylesheet" media="all" href="css/main.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body lang="en">
+		<header id="masthead">
+			<div id="logo"></div>			
+			<h1>Gurpreet Singh</h1>
+			<p>Web Developer</p>
+			<nav>
+				<ul>
+					<li><a href="#abt">About</a></li>
+					<li><a href="#prjs">Projects</a></li>
+					<li><a href="#con">Contact</a></li>
+				</ul>
+			</nav>
+		</header>	
+      	<article id="contact">
+			<div id="into-image" style="width: 100%;">
+     		   <img style="width: 100%;" src="assets/images/intro-main.png" alt="This site is responsive" >
+           </div>       			
+			<section class="opening intro">
+			     I make web beautiful!
+			</section>
+		</article>		
+		<article id="about">
+			<section class="opening">
+				<h1 id="abt">About</h1>
+					<p>
+					   More than five years of experience working with world class clients has given me extensive knowledge of web development.
+					   My broad educational background has provided me a strong base, also makes me versatile & flexible developer to fit into
+					   different roles effectively.
+					</p>
+					<p>       	
+					    I love developing bespoke, interactive, responsive, robust, and efficient web systems and 
+					    like to keep myself up to date with latest technology and trends which 
+						enables me to develop best possible product according to client’s requirements.
+					</p>
+					<p>Personally I like to a work in an environment where the commitment and excitement to technology is 
+						paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, 
+						desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.
+					</p> 					
+					<aside id="new">
+						<h2>Core Skills:</h2>
+						<ul>
+							<li>Front End Development</li>
+							<li>Responsive Design</li>
+							<li>Modular JavaScript</li>
+							<li>HTML5 & CSS3</li>
+							<li>Cross Device & Web Development</li>
+						</ul>
+					</aside>		
+				</section>
+				<section style="display:none" id="about-more">
+					<h2>Skills & Services</h2>
+					
+						<ul>
+							<h3>Skills</h3>	
+							<li>JavaScript</li>
+                          <li>HTML5</li>
+                          <li>CSS3</li> 							
+							<li>ActionScript 3</li>
+							<li>Escenic CMS</li>
+							<li>MOSS CMS</li>
+							<li>Kentico CMS</li>
+							<li>Agile Methodologies</li>
+							<li>Git/SVN</li>
+							<li>Jira</li>
+						</ul>
+						
+						<ul>
+							<h3>Frameworks, Libraries & tools</h3>	
+							<li>jQuery</li>
+							<li>Jasmine (BDD)</li>							
+							<li>Modernizr</li>		
+							<li>Media Queries</li>			
+							<li>Sass & LESS </li>		
+							<li>Flash Builder</li>
+							<li>Fluid Grids</li>
+							<li>Responsive Design</li>
+							<li>Progressive Degradation</li>
+						</ul>
+  					
+						<ul>
+							<h3>Working Knowledge</h3>	
+							<li>Backbone.js</li>
+							<li>Node.js</li>							
+							<li>JSP</li>
+							<li>PHP</li>
+							<li>java</li>
+						</ul>
+											
+					
+				</section>
+				<button class="btn" id="more-btn">Skills & Services</button>	
+		</article>
+		<article id="projects">
+			<section>
+				<h1 id="prjs">Projects</h1>
+					<div id="projects-container">
+						<div class="project-wrap">
+							<div id="0" class="project first">
+								<img src="assets/images/thesun.png" alt="The Sun" />							
+								<h3> The Sun: Revamp</h3> 
+								<p>The Sun has the tenth-largest <br> circulation of any newspaper in the...</p>							
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="1" class="project second">
+								<img src="assets/images/match-center.png" alt="The Sun: Live match center" />							
+								<h3> The Sun: Live Match Center</h3> 
+								<p>Sun Football is famous for its <br>brilliant sports-writers and expert...</p>														
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="2" class="project third">
+								<img src="assets/images/ipad.png" alt="The Sun: iPad POC" />							
+								<h3> The Sun: iPad POC</h3> 
+								<p>This HTML5 based tablet proof of <br> concept project has been done for... </p>							
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="3" class="project first">
+								<img src="assets/images/notw.png" alt="News of the World" />							
+								<h3>News of the World</h3> 
+								<p>The News of the World was a<br>national red top newspaper...</p>			
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="4" class="project second">
+								<img src="assets/images/thetimes.png" alt="The Times" />							
+								<h3>The Times</h3> 
+								<p>The Times is a British daily<br>national newspaper, first published...</p>			
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="5" class="project third">
+								<img src="assets/images/thesuntimes.png" alt="The Sunday Times" />							
+								<h3>The Sunday Times</h3> 
+								<p>The Sunday Times is the largest<br>selling British national 'quality'...</p>			
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="6" class="project first">
+								<img src="assets/images/bodyblitz.png" alt="Body Blitz" />							
+								<h3>Body Blitz Diet</h3> 
+								<p>Anna's Richardson's Body Blitz <br>Diet is a two week diet plan that...</p>			
+							</div>						
+						</div>
+						<div class="project-wrap">
+							<div id="7" class="project second">
+								<img src="assets/images/atoz.png" alt="AZ Online" />							
+								<h3>AZ Online</h3> 
+								<p>Philip Allan Updates is part of<br>the Hodder Education Group, a...</p>			
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="8" class="project third">
+								<img src="assets/images/greensquare.png" alt="Green Square" />							
+								<h3>Green Square</h3> 
+								<p>Green Square is a corporate<br>finance and advisory practice...</p>	
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="9" class="project first">
+								<img src="assets/images/accenture.png" alt="Accenture Microsites" />							
+								<h3>Accenture Microsites</h3> 
+								<p>Accenture’s expertise and resources<br>cover the full M&A process...</p>								
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="10" class="project second">
+								<img src="assets/images/fabmag.png" alt="Fab Mag" />							
+								<h3>Fabulous Magazine</h3> 
+								<p>The UK's most-read weekly glossy,<br>out every Sunday with...</p>				
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="11" class="project third">
+								<img src="assets/images/hodder.png" alt="Hodder Education" />							
+								<h3>Hodder Education</h3> 
+								<p>As one of the UK's largest educational publishers, Hodder Education...</p>				
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="12" class="project first">
+								<img src="assets/images/prague.png" alt="Prague Airport" />							
+								<h3>Interactive Prague Airport</h3> 
+								<p>Prague Airport is the operator of<br>the most important international...</p>				
+							</div>
+						</div>
+						<div class="project-wrap">
+							<div id="13" class="project second">
+								<img src="assets/images/otto.png" alt="Otto" />							
+								<h3>Otto Group</h3> 
+								<p>Otto Group are inspired andunited<br> by our shared values, which...</p>				
+							</div>
+						</div>
+					</div>
+			</section>
+		</article>
+				
+		
+		<article id="contact">
+			<section class="opening">
+					<h1 id="con">Contact Info</h1>
+					<ul>
+						<li><a href="mailto:gurizox@yahoo.com">Email: gurizox@yahoo.com</a> </li> 
+						<li><a target="blank" href="https://twitter.com/gurpreet_s82">Twitter: gurpreet_s82</a></li>
+						<li><a target="blank" href="http://www.linkedin.com/pub/gurpreet-singh/11/bb8/592">Linked in profile</a> 
+						<li><a target="blank" href="http://stackoverflow.com/users/1750604/gurpreet-singh">Stackoverflow profile</a></li> 			 					
+					</ul><p></p>
+				</section>
+				<button id="to-top" class="btn">Back to top</button>	
+		</article>
+		<div id="light" class="white_content">
+			<div id="content">	
+				<!-- Dynamic Content -->			
+			</div>
+  			<button class="btn" id="close-pop">Close</button>	
+		</div>
+		<div id="fade" class="black_overlay"></div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
